@@ -1,0 +1,13 @@
+# Global Ignores
+node_modules/
+dist/
+target/
+.env
+boot_log*.txt
+implementation-log.md
+.idea/
+.vscode/
+*.swp
+*.log
+*.pdf
+channel_log*
