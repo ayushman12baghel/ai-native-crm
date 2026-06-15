@@ -4,6 +4,7 @@ import {
   Wand2,
   BarChart3,
   Users,
+  Database,
 } from 'lucide-react';
 
 const navItems = [
@@ -11,6 +12,7 @@ const navItems = [
   { to: '/new-campaign',  icon: Wand2,           label: 'New campaign' },
   { to: '/analytics',     icon: BarChart3,       label: 'Analytics' },
   { to: '/customers',     icon: Users,           label: 'Customers' },
+  { to: '/data-ingestion',icon: Database,        label: 'Data Ingestion' },
 ];
 
 export default function Navbar() {

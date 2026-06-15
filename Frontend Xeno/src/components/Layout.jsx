@@ -7,6 +7,7 @@ const navItems = [
   { to: "/new-campaign",  label: "New campaign" },
   { to: "/analytics",     label: "Analytics" },
   { to: "/customers",     label: "Customers" },
+  { to: "/data-ingestion",label: "Data Ingestion" },
 ];
 
 export default function Layout() {
