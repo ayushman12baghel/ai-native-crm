@@ -18,6 +18,7 @@ The system is split into three decoupled services to accurately model a real-wor
 - **Tech Stack**: Java 17, Spring Boot 3, Spring Data JPA, Spring AI, PostgreSQL.
 - **Role**: Manages the domain models (Customers, Orders, Campaigns), exposes REST APIs, hosts the AI tool-calling engine, and orchestrates campaign dispatches.
 - **Attribution Engine**: Implements a deterministic, 7-day last-touch attribution model to link new orders back to the specific campaign communications that influenced them.
+- **Data Ingestion API**: Provides robust APIs (`/api/customers/ingest` and `/bulk`) to handle single manual entries and bulk CSV uploads with strict validation (using Jakarta Validation) and transactional guarantees.
 
 ### 2. React Frontend (The Dashboard)
 - **Tech Stack**: Vite, React 18, Tailwind CSS v4, React Router v6.
