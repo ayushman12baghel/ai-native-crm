@@ -1,4 +1,4 @@
-# AI-Native Mini CRM (Xeno Engineering Assignment)
+# AI-Native Mini CRM
 
 An intelligent, AI-first Customer Relationship Management (CRM) system designed to help D2C brands easily segment audiences, generate personalized marketing campaigns, and track delivery/engagement analytics.
 
@@ -73,4 +73,4 @@ npm run dev
 *(Runs on port 5173. Open this in your browser).*
 
 ---
-*Built with ❤️ for the Xeno Engineering Assignment.*
+*Built with ❤️.*

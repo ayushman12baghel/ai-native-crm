@@ -28,7 +28,7 @@ export default function Sidebar() {
           </svg>
         </div>
         <span className="text-base font-bold tracking-tight text-white">
-          Xeno CRM
+          CRM
         </span>
       </div>
 
@@ -62,7 +62,7 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="px-6 py-5 border-t border-zinc-800/40">
-        <p className="text-[11px] text-zinc-600">Xeno Mini CRM</p>
+        <p className="text-[11px] text-zinc-600">Mini CRM</p>
         <p className="text-[11px] text-zinc-700 mt-0.5">v1.0 · AI-Native</p>
       </div>
     </aside>

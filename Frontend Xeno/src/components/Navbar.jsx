@@ -29,7 +29,7 @@ export default function Navbar() {
             </svg>
           </div>
           <span className="text-lg font-bold tracking-tight text-zinc-100">
-            Xeno CRM
+            CRM
           </span>
         </div>
 

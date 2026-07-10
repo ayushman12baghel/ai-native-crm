@@ -141,7 +141,7 @@ export default function CsvUploader() {
     const link = document.createElement("a");
     const url = URL.createObjectURL(blob);
     link.setAttribute("href", url);
-    link.setAttribute("download", "xeno_customer_template.csv");
+    link.setAttribute("download", "crm_customer_template.csv");
     link.style.visibility = 'hidden';
     document.body.appendChild(link);
     link.click();

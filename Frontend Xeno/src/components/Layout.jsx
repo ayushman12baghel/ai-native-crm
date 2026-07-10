@@ -27,7 +27,7 @@ export default function Layout() {
                 <path d="M12 3v18" />
               </svg>
             </div>
-            <span className="font-bold text-lg text-white">Xeno CRM</span>
+            <span className="font-bold text-lg text-white">CRM</span>
           </div>
 
           {/* Desktop Nav */}
